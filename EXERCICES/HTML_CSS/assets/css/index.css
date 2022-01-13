@@ -1,0 +1,267 @@
+body{
+    margin: auto;
+    padding: auto;
+    background-color: rgba(10, 10, 10, 0.3);
+}
+
+/* header */
+
+.first_content{
+    display: flex;
+    margin-left: 30px;
+}
+
+.first_content h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content_title1{
+    margin-left: 180px;
+}
+
+.logo_header{
+    position: absolute;
+    margin-left: -70px;
+    margin-top: -5px;
+}
+
+.search_bar{
+    align-items: center;
+    margin-left: 475px;
+    margin-top: 10px;
+    height: 30px;
+    width: 180px;
+}
+
+.search_text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.navbar{
+    position: relative;
+    display: flex;
+    list-style: none;
+    background-color: orange;
+    height: 40px;
+    width: 100%;
+    align-items: center;
+}
+
+.navbar ul{
+    list-style-type: none;
+}
+
+.navbar li a:hover{
+    background-color: #111;
+    color: white;
+}
+
+.navbar_block{
+    display: inline-flex;
+    padding: 0 100px;
+}
+
+.navbar_content a{
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 100px;
+}
+
+/* content */
+
+.news{
+    /* position: relative; */
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    /* margin-top: -60px; */
+}
+
+.news img{
+    margin-left: 200px;
+}
+
+.news_order ul{
+    display: flex;
+    /* color: white; */
+    margin-left: 830px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.news_order ul li{
+    margin-left: 10px;
+}
+
+.news_content a{
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    background-color: sienna;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: -520px;
+}
+
+.news_order li a:hover{
+    background-color: grey;
+    color: black;
+}
+
+.news_order_text{
+    position: relative;
+    color: white;
+    margin-left: 900px;
+    margin-top: -390px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.content{
+    margin-top: 60px;
+    text-align: justify;
+}
+
+.content table{
+    margin: auto;
+    width: 1000px;
+    /* border-spacing: 30px; */
+}
+
+.content img{
+    display: block;
+    margin: auto;
+    height: 200px;
+    /* padding: 10px 10px; */
+}
+
+th{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px 10px 20px;
+    
+}
+
+td{
+    padding: 10px 10px;
+
+}
+
+.indust_circles{
+    margin-left: 155px;
+}
+
+.indust_circles h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.circle_1{
+    position: relative;
+    background-color: rgba(10, 10, 10, 0.8);
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-top: 30px;
+}
+
+.circle_2{
+    background-color: white;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    margin-top: -150px;
+    margin-left: 130px;
+}
+
+.circle_3{
+    background-color: white;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    margin-top: -150px;
+    margin-left: 230px;
+}
+
+.success_block{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: -210px;
+
+}
+
+.success_block p{
+    color: white;
+    background-color:sienna;
+    border-radius: 10px;
+    height: 150px;
+    width: 300px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+    height: 300px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.footer_content{
+    background-color: sienna;
+    height: 60px;
+    width: auto;
+}
+
+.searchbar_footer{
+    height: 40px;
+    width: 200px;
+    margin-left: 1000px;
+    margin-top: 8px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: end;
+}
+
+.footer_table{
+    display: flex;
+    color: white;
+    width: 1200px;
+    margin: 0 auto;
+    align-items: flex-start;
+    padding: 20px 0 100px;
+    justify-content: center;
+
+}
+
+.events,
+.follow,
+.contact,
+.join_in{
+    width: 60%;
+    margin: 0 30px;
+    list-style-type: none;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.footer_table img{
+    padding: 0 10px;
+}
